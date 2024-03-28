@@ -55,7 +55,7 @@ void ClapTrap::attack(const std::string& target) {
 
 void ClapTrap::beRepaired(unsigned int amount) {
     if (hitPoint == 0 || energyPoint == 0) {
-        std::cout << "ClapTrap " << _name << " can't do anything" << std::endl;
+        std::cout << "ClapTrap " << _name << " SA7BI SMA7 LIA LAYSAHEL" << std::endl;
         return ;
     }
     std::cout << "ClapTrap " << _name << " gained " << amount << " of energy back" << std::endl;
